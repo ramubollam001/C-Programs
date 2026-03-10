@@ -6,7 +6,7 @@ int data;
 node* next;
 void insertBeginning(node* &head,int value)
 {
-    node* newnode=new node;
+    node* newnode=new node();
     newnode->data=value;
     newnode->next=head;
     head=newnode;
